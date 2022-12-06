@@ -9,32 +9,34 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="title">
-            <h1>Карточка студента</h1>
-        </div>
-        <div class="container person">
-            <div class="person__photo"></div>
-            <div class="person-about1">
-                <p>Имя, фамилия:</p>
-                <br>
-                <h4>Евгений Ходыкин</h4>
-                <br><br>
-                <p>Возраст:</p>
-                <br>
-                <h4>34 года</h4>
+       <header class="header">
+            <div class="header__title">
+                <h2>Карточка студента</h2>
             </div>
-            <div class="person-about2">
-                <p>Опыт в программировании:</p>
-                <br>
-                <h4>8 месяцев обучения в другой школе.</h4>
-                <br><br>
-                <p>О себе:</p>
-                <br>
-                <h4>Врач-стоматолог, решивший радикально изменить свою жизнь.</h4>
+            <div class="header__info">
+                <div class="photo">
+                    <img src="./images/my_photo.JPG" alt="my_photo">
+                </div>
+                <div class="about">
+                    <dl>
+                        <dt>Имя, фамилия:</dt>
+                        <dd>Евгений Ходыкин</dd>
+                        <br>
+                        <dt>Возраст:</dt>
+                        <dd>34 года</dd>
+                        <br>
+                        <dt>Опыт в программировании:</dt>
+                        <dd>8 месяцев</dd>
+                        <br>
+                        <dt>О себе:</dt>
+                        <dd>Врач-стоматолог, решивший изменить свою жизнь.</dd>
+                    </dl>
+                </div>
             </div>
-        </div>
-        <div class="container targets">
-            <h3>Мои цели на обучение:</h3>
+       </header>
+       <main class="main">
+            <div class="main__targets">
+                 <h3>Мои цели на обучение:</h3>
             <ul>
                 <li>Освоить новую для себя специальность как науку</li>
                 <li>Изменить своё мышление</li>
@@ -42,9 +44,9 @@
                 <li>Сделать IT неотъемлемой частью своей жизни</li>
                 <li>Гордиться собой :)</li>
             </ul>
-        </div>
-        <div class="container timing">
-            <h3>Сколько времени смогу учиться:</h3>
+            </div>
+            <div class="main__timing">
+                <h3>Сколько времени смогу учиться:</h3>
             <div class="day">
                 <p>Понедельник</p>
                 <p>5-6ч.</p>
@@ -73,9 +75,9 @@
                 <p>Воскресенье</p>
                 <p>1-2ч.</p>
             </div>        
-        </div>
-        <div class="container education">
-            <h3>Мои пройденные курсы:</h3>
+            </div>
+            <div class="main__education">
+                <h3>Мои пройденные курсы:</h3>
             <div class="name">
                 <h5>Название</h5>
                 <h5>Автор</h5>
@@ -91,21 +93,16 @@
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;Владилен Минин</p>
                 <p>10/10</p>
             </div>
-        </div>
-        <div class="container contacts">
+            </div>
+       </main>
+       <footer class="footer">
             <h3>Мои контакты:</h3>
             <address class="socials">               
-                    <div class="telegram">
-                        <a href="https://t.me/Evgeny_Khodykin" target="_blank"><img src="./images/telegram.png" alt="telegram"></a>
-                    </div>
-                    <div class="vk">
-                        <a href="https://vk.com/jhonny_ist" target="_blank"><img src="./images/vk.png" alt="vk"></a>
-                    </div>
-                    <div class="github">
-                        <a href="https://github.com/EvgenyKhodykin" target="_blank"><img src="./images/github.png" alt="github"></a>
-                    </div>
+                <a href="https://t.me/Evgeny_Khodykin" target="_blank"><img src="./images/telegram.png" alt="telegram"></a>                 
+                <a href="https://vk.com/jhonny_ist" target="_blank"><img src="./images/vk.png" alt="vk"></a>
+                <a href="https://github.com/EvgenyKhodykin" target="_blank"><img src="./images/github.png" alt="github"></a>   
             </address>
-        </div>
+       </footer>    
     </div>
 </body>
 </html>
