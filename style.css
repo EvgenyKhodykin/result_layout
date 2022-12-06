@@ -7,7 +7,7 @@ a {
     cursor: pointer;
 }
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image: url(./images/background.jpg);
     background-size: cover;
     height: 100%;
@@ -44,9 +44,9 @@ body {
 }
 .person__photo {
     background-image: url(./images/my_photo.JPG);
-    width: 24.5%;
+    width: 24.5%; 
     height: 100%;
-    background-size: contain;
+    background-size: cover;
     border-radius: 10px;
     margin-right: 30px;
 }
